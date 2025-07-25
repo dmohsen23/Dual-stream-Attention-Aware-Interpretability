@@ -1,5 +1,5 @@
 # Multimodal-Attention-Aware-Interpretability
-_A deep learning framework for interpretable diagnosis of distal myopathy via multimodal attention-gated fusion._
+_A deep learning framework for interpretable diagnosis of distal myopathy via multimodal attention-aware fusion._
 
 ---
 
@@ -7,7 +7,8 @@ _A deep learning framework for interpretable diagnosis of distal myopathy via mu
 
 **Distal myopathies** are genetically heterogeneous muscle disorders characterized by specific myofiber alterations.  
 This repository implements a **Multimodal Attention-Aware Fusion** model that:  
-- Fuses **global** (ResNet50) + **local** (BagNet33) contextual information  
+- Fuses **global** (ResNet50) + **local** (BagNet33) contextual information
+- Uses the Attention Gate mechanism to efficiently fuse global and local contextual information.
 - Generates saliency maps for interpretability  
 - Evaluates interpretability using functionally grounded approaches: coherence score and incremental deletion.
 
