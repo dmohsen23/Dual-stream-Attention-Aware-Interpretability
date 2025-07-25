@@ -1,17 +1,45 @@
 # Multimodal-Attention-Aware-Interpretability
-A deep learning framework for diagnosing distal myopathy with enhanced explainability via attention-gated multimodal fusion. Our architecture integrates global and local feature extractors and generates saliency maps whose interpretability is evaluated both quantitatively and by expert radiologists.
+_A deep learning framework for interpretable diagnosis of distal myopathy via attention-gated multimodal fusion._
 
-🔍 Overview
-Distal myopathies are genetically heterogeneous skeletal muscle disorders characterized by specific myofiber-level abnormalities. Accurate, explainable AI (XAI) tools can support clinicians by not only predicting disease presence but also highlighting relevant regions of interest.
+---
 
-Key contributions:
+## 🚀 Table of Contents
 
-Attention-Gated Fusion: Combines a global ResNet50 backbone with a local BagNet33 via adaptive attention gates.
+1. [Overview](#overview)  
+2. [Features](#features)  
+3. [Installation](#installation)  
+4. [Usage](#usage)  
+5. [Results](#results)  
+6. [Evaluation](#evaluation)  
+7. [Contributing](#contributing)  
+8. [License](#license)  
+9. [References](#references)  
 
-Dual Interpretability Evaluation:
+---
 
-Functionally Grounded: coherence scoring against reference masks; MoRF/LeRF incremental-deletion analysis.
+## 📝 Overview
 
-Application-Grounded: radiologist survey and thematic analysis of saliency-map usefulness and trust.
+**Distal myopathies** are genetically heterogeneous muscle disorders characterized by specific myofiber alterations.  
+This repository implements an **Attention-Gated Multimodal Fusion** model that:  
+- Fuses **global** (ResNet50) + **local** (BagNet33) features  
+- Generates saliency maps for explainability  
+- Evaluates interpretability quantitatively & via clinician feedback  
 
-Clinical Validation: Involves seven radiologists (1–9 years’ experience) to assess map specificity, accuracy, and perceived trust.
+---
+
+## ✨ Features
+
+- 🔍 **High Accuracy** on BUSI & Distal Myopathy datasets  
+- 🧠 **Attention-Aware Fusion** for improved discrimination  
+- 📊 **Functionally Grounded Metrics**: coherence score, incremental deletion  
+- 👩‍⚕️ **Application-Grounded Validation**: survey & thematic analysis with radiologists  
+
+---
+
+## 💻 Installation
+
+1. **Clone**  
+   ```bash
+   git clone https://github.com/<your-username>/Multimodal-Attention-Aware-Interpretability.git
+   cd Multimodal-Attention-Aware-Interpretability
+
