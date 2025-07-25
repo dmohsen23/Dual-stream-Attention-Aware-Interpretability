@@ -22,19 +22,15 @@ This repository implements a **Multimodal Attention-Aware Fusion** model that:
 
 ---
 
-🌟 Inspiration
-This work builds upon and extends ideas from:
+## 🌟 Inspiration
 
-RadFormer – combining transformers with radiology workflows
+This work draws on the following projects and publications:
 
-GitHub: https://github.com/sbasu276/RadFormer
+1. **RadFormer** – Transformers with global–local attention for interpretable and accurate cancer detection  
+   - GitHub: [sbasu276/RadFormer](https://github.com/sbasu276/RadFormer)  
+   - Paper: Basu _et al._ (2023). RadFormer: Transformers with global–local attention for interpretable and accurate Gallbladder Cancer detection. *Medical Image Analysis*, 83, 102676.  
 
-Publication: Sharma et al., “RadFormer: Transformer-based Radiology Report Generation” (ScienceDirect)
-https://www.sciencedirect.com/science/article/pii/S1361841522003048
-
-Attention-Gated Networks – integrating attention gates into CNNs for medical imaging
-
-GitHub: https://github.com/ozan-oktay/Attention-Gated-Networks
-
-Paper: Oktay et al., “Attention Gated Networks: Learning to Leverage Salient Regions in Medical Images”
+2. **Attention Gated Networks** – Attention gates for highlighting salient regions in CNN-based medical imaging  
+   - GitHub: [ozan-oktay/Attention-Gated-Networks](https://github.com/ozan-oktay/Attention-Gated-Networks)  
+   - Paper: Schlemper _et al._ (2019). Attention gated networks: Learning to leverage salient regions in medical images. *Medical Image Analysis*, 53, 197–207.
 
